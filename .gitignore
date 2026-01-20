@@ -43,6 +43,12 @@ pnpm-debug.log*
 .env.test.local
 .env.production.local
 
+# Firebase config files (contains sensitive keys)
+google-services.json
+GoogleService-Info.plist
+google-services*.json
+GoogleService-Info*.plist
+
 # typescript
 *.tsbuildinfo
 *.tsbuildinfo.json
